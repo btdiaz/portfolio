@@ -13,18 +13,40 @@ import "./skills.styles.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">Technical Skills</h1>
-      <CardDeck>
+      <h1 className="text-center font-details-b pb-4">Habilidades técnicas</h1>
+      <CardDeck className="d-flex justify-content-around">
         <Row className="d-flex justify-content-around">
-          {/* Frontend */}
+
           <Col md={4}>
+            {/* Control de versiones */}
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                {/* Frontend */}
-                <Card.Title className="text-center  card-title">Frontend</Card.Title>
+                <Card.Title className="text-center  card-title">Control de versiones</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.frontend.map((skill, index) => (
+                  {skills.versionControl.map((skill, index) => (
+                    <span className="p-2" key={index}>
+                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                      </a>
+                    </span>
+                  ))}
+                </Card.Text>
+              </Card.Body>
+            </Card>            
+
+          </Col>
+
+
+
+          <Col md={4}>
+            {/* Design */}
+            <Card className="focus mt-2 mb-2">
+              <Card.Body>
+                <Card.Title className="text-center  card-title">Diseño</Card.Title>
+                <hr />
+                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                  {skills.design.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
@@ -37,15 +59,15 @@ const Skills = () => {
 
           </Col>
 
-
-          {/* Backend */}
+          
           <Col md={4}>
+            {/* Prototipado */}
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Backend</Card.Title>
+                <Card.Title className="text-center  card-title">Prototipado</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.backend.map((skill, index) => (
+                  {skills.prototipado.map((skill, index) => (
                     <span className="p-2" key={index}>
                       <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
                         <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
@@ -58,42 +80,6 @@ const Skills = () => {
 
           </Col>
 
-          {/* Programming Languages */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.programmingLanguages.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-            {/* Testing and good practices */}
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Testing & Clean Code</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.Testing_clean_code.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-          </Col>
         </Row>
       </CardDeck>
     </div>
