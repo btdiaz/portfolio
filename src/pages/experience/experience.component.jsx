@@ -12,7 +12,7 @@ import "./experience.styles.css";
 const Experience = () => {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCIA</h1>
 
       <Jumbotron className="jumbo-style">
         <Container>
@@ -24,15 +24,15 @@ const Experience = () => {
               
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Applaudo Studios - Full time</Card.Title>
+                  <Card.Title className="text-center">semiNUEVOS INTERPERU - Full time</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">AWS DevOps Engineer</strong>
+                    <strong className="body-title-style ">UX/UI DESIGNER</strong>
                     <br />
-                    <strong>Technologies:</strong> Terraform, Python, PostgresSQL, Git, GitHub, GitHub Actions, Bash, AWS, HELM, EKS, Kubernetes, Docker, Helm, ArgoCD, Airflow, Lambda Functions, Cloud Functions, Cloud Scheduler, GCP Pub/Sub, Cert-Managera, Nginx Ingress Controller
+                    <strong>Tecnologías:</strong> Figma, Photoshop
                     <br />
-                    <strong>Duration:</strong> April 2022 – April 2023
+                    <strong>Duración:</strong> April 2022 – April 2023
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-center">

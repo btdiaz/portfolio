@@ -21,23 +21,26 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Gustavo Adolfo Torres Díaz.</strong>
-                A passionate DevOps engineer and Biotekkkkkch engineer, born and brought up in Perú.
-                I am self motivated, responsible, perseverant, easy to work
-                in team, committed and creative.
+                Hi there! I am <strong>&nbsp;Lucero Torres Díaz.</strong>
+                a UX/UI designer passionate about turning ideas into meaningful, user-centered digital experiences.
                 <br />
-                In 2017, I successfully completed my Biotechnological Engineering career.
+                I enjoy combining empathy, design thinking, and visual storytelling to create intuitive and engaging interfaces.
                 <br />
-                And in 2020 I sucessfully finished my career in Software Design and Systems Integration.
+                I believe greqt design happens throught collaboration, curiosity, and a genuine love for details.
                 <br />
-                I have experience in DevOps roles designing, implementing, and maintaining infrastructure in the cloud using services from AWS and GCP. 
+                In 2021, I completed my degree in Tourism and Hospitality, an experience that streghtned my passion for creating 
+                memorable experiences for people. Over time that passion evolved into a deep interest in digital design and user experiences.
                 <br />
-                I would like to join a company where where I can continue to learn and grow professionally
-                applying all the knowledge acquired in DevOps and Cloud management, biotechnology and software development during my
-                formative years.
-                <br />I am passionate about the new technologies that come out day by day as Machine Learning, Blockchain and Bioinformatics,
-                and being able to be at the forefront with these.
-                <br /> <br />
+                In 2023, I successfully completed my studies in UX/UI design. During 2024, I expanded my skills 
+                throught online courses focused on tools such as Figma, Photoshop, and other essential platforms for 
+                digital experience design.
+                <br />
+                This ongoing learning has allowed me to strengthen both my creative and technical skills, and to continue evolving
+                as a UX/UI designer, committed to crafting intuitive, engaging, and meaningful digital experiences.
+                <br />
+                I would love to join a team where I can continue learning, take on new challenges, and grow as a product designer.
+                I'm looking for opportunties that encourage collaboration, creativity, and ongoing development, personally and professionally. 
+                <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
