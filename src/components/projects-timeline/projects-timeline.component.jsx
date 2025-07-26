@@ -40,14 +40,14 @@ import "./projects-timeline.styles.css";
 const TimeLine = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+      <h1 className="pt-3 text-center font-details-b pb-3">PROJECTOS</h1>
       <Timeline>
         <Events>
         {/* Project: Mapa Covid-19 */}
           <ImageEvent
             date="20/07/2020"
             className="text-center"
-            text="Mapa Covid-19"
+            text="NÉBULA"
             src={L_Mapacovid}
             alt="Mapa Covid-19"
           >
@@ -60,7 +60,7 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Details
+                      Detalles
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">

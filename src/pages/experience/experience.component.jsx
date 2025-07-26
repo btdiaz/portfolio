@@ -24,25 +24,24 @@ const Experience = () => {
               
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">semiNUEVOS INTERPERU - Full time</Card.Title>
+                  <Card.Title className="text-center">SEMINUEVOS INTERPERU - Full time</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">UX/UI DESIGNER</strong>
                     <br />
-                    <strong>Tecnologías:</strong> Figma, Photoshop
+                    <strong>Tecnologías:</strong> Figma, Adobe Photoshop
                     <br />
-                    <strong>Duración:</strong> April 2022 – April 2023
+                    <strong>Duración:</strong> Agosto 2023 – Diciembre 2023
                     <br/>
-                    <strong> Description </strong>
+                    <strong> Descripción </strong>
                     <ul className="text-center">
-                      <li>Cost analysys between AWS and GCP to choose the best service that fits the needs for the construction of a Data Ware House.</li>
-                      <li>Involved in the research of a Production environment for Airflow as a Data Orchestrator.</li>
-                      <li>Development and design of IaC with Terraform.</li>
-                      <li>Implementation of CI/CD with Github Actions.</li>
-                      <li>Implementation of GitOps with ArgoCD, Kubernetes and Helm.</li>
-                      <li>Implementation of Lambda Functions.</li>
-                      <li>Successfully completed the AWS DevOps Trainee Program.</li>
+                      <li>Realicé user research, para explorar las necesidades y comportamiento de los usuarios.</li>
+                      <li>Diseñé un roadmap con las posibles soluciones visuales y funcionales.</li>
+                      <li>Elaboré wireframes que representaban la estrucutra básica de las interfaces.</li>
+                      <li>Desarrollé prototipos interactivos para simular el funcionamiento del producto final.</li>
+                      <li>Participé en sesiones de testing, identificando errores para mejorar su usabilidad.</li>
+                      <li>Acompañé en el proceso de lanzamiento plataformas web y mobile.</li>
                     </ul>
                     
                     
@@ -64,28 +63,24 @@ const Experience = () => {
               
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Ganemo - Full time</Card.Title>
+                  <Card.Title className="text-center">HYDROSMART - Part time</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Beginner DevOps Engineer</strong>
+                    <strong className="body-title-style ">UI Designer</strong>
                     <br />
-                    <strong>Technologies:</strong> Jenkins, Python, PostgresSQL, Git, GitHub, Bash, AWS, Terraform, EKS, Kubernetes, Docker, Rancher, Jenkins Shared libraries
+                    <strong>Tecnologías:</strong> Figma, Adobe Photoshop, Adobe Ilustrator
                     <br />
-                    <strong>Duration:</strong> September 2021 – December 2022
+                    <strong>Duración:</strong> September 2024 – December 2024
                     <br/>
-                    <strong> Description </strong>
+                    <strong> Descripción </strong>
                     <ul className="text-center">
 
-                      <li>Automation of deployment processes in AWS EKS.</li>
-                      <li>Involved in the migration from Rancher to AWS EKS.</li>
-                      <li>Creation of scripts in Python, Groovy and Bash for automation processes such as generation of backups, source code updates, etc.</li>
-                      <li>Migrations and replications of Databases in RDS.</li>
-                      <li>Monitoring of servers in Rancher.</li>
-                      <li>Deployment of services for new clients in AWS EKS.</li>
-                      <li>Migration and creation of jobs in Jenkins.</li>
-                      <li>Creation of Pipelines in Jenkins.</li>
-                      <li>Implementation of shared libraries in Jenkins.</li>
+                      <li>Di vida a ideas creando interfaces limpias, visualmente atractivas y funcionales.</li>
+                      <li>Diseñé pantallas para web y mobile apps con atención al detalle.</li>
+                      <li>Convertí conceptos en prototipos interactivos usando Figma.</li>
+                      <li>Colaboré codo a codo con equipos de UX, producto desarrollo.</li>
+                      <li>Jugué con colores, tipografías y jerarquías para lograr experiencias intuitivas y accesibles.</li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
                     </ul>

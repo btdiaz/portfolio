@@ -21,25 +21,25 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Lucero Torres Díaz.</strong>
-                a UX/UI designer passionate about turning ideas into meaningful, user-centered digital experiences.
+                Hola! soy <strong>&nbsp;Lucero Torres Díaz.</strong>
+                diseñadora UX/UI apasionada por transformar ideas en experiencias digitales significativas.
                 <br />
-                I enjoy combining empathy, design thinking, and visual storytelling to create intuitive and engaging interfaces.
+                Disfruto combinar la empatía, el pensamiento de diseño y la narrativa visual para crear interfaces intuitivas y atractivas.
                 <br />
-                I believe greqt design happens throught collaboration, curiosity, and a genuine love for details.
+                Creo firmemente que un gran diseño surge de la colaboración, la curiosidad y una genuina atención a los detalles.
                 <br />
-                In 2021, I completed my degree in Tourism and Hospitality, an experience that streghtned my passion for creating 
-                memorable experiences for people. Over time that passion evolved into a deep interest in digital design and user experiences.
+                En 2021, culminé mis estudios en Turismo y Hoteleria, una etapa que fortaleció mi vación por generar 
+                experiencias memorables para las personas. Con el timepo esa pasión evolucionó hacia un profundo interés
+                por el diseño digital y la experiencia de usuario.
                 <br />
-                In 2023, I successfully completed my studies in UX/UI design. During 2024, I expanded my skills 
-                throught online courses focused on tools such as Figma, Photoshop, and other essential platforms for 
-                digital experience design.
+                En 2023, finalicé mi formación en diseño UX/UI y durante 2024 amplié mis habilidades a través de cursos en línea
+                enfocados en herramientas tecnológicas.
                 <br />
-                This ongoing learning has allowed me to strengthen both my creative and technical skills, and to continue evolving
-                as a UX/UI designer, committed to crafting intuitive, engaging, and meaningful digital experiences.
+                Este aprendizaje continuo me ha permitido fortalecer mis capacidades creativas y técnicas para seguir
+                creciendo como diseñadora UX/UI, comprometida a crear experiencias digitales intuitivas, atráctivas y con propósito.
                 <br />
-                I would love to join a team where I can continue learning, take on new challenges, and grow as a product designer.
-                I'm looking for opportunties that encourage collaboration, creativity, and ongoing development, personally and professionally. 
+                Estoy entusiamada por unirme a un equipo que fomente la colaboración, la creatividad y el crecimiento tanto personal
+                como profesional, donde pueda seguir aprendiendo y asumir nuevos retos como diseñadora de productos.
                 <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
