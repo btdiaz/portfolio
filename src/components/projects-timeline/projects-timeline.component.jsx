@@ -12,25 +12,9 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 // skills
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_PHP from "../../assets/img/skills/php.svg";
-import L_AWS from "../../assets/img/skills/aws.svg";
-import L_LARAVEL from "../../assets/img/skills/laravel-1.svg";
-import L_ARDUINO from "../../assets/img/skills/arduino.svg";
-import L_PYTHON from "../../assets/img/skills/python.svg";
-import L_PYTHONANYWHERE from "../../assets/img/skills/pythonanywhere.svg";
-import L_ANDROID from "../../assets/img/skills/android.svg";
-import L_SWIFT from "../../assets/img/skills/swift-15.svg";
-import L_FIREBASE from "../../assets/img/skills/firebase-1.svg";
-import L_IOS from "../../assets/img/skills/ios-2.svg";
-import L_REACTNATIVE from "../../assets/img/skills/react-native-firebase-1.svg";
-import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_FIGMA from "../../assets/img/skills/figma.png";
+
 
 
 
@@ -81,7 +65,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_IOS}
+                                src={L_FIGMA}
                                 alt="IOS"
                                 rounded
                                 className="image-style1 m-1"
@@ -92,7 +76,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_SWIFT}
+                                src={L_FIGMA}
                                 alt="Swift"
                                 rounded
                                 className="image-style1 m-1"
@@ -103,7 +87,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_FIREBASE}
+                                src={L_FIGMA}
                                 alt="Firebase"
                                 rounded
                                 className="image-style1 m-1"
@@ -173,7 +157,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACTNATIVE}
+                                src={L_FIGMA}
                                 alt="ReactNative"
                                 rounded
                                 className="image-style m-1"
@@ -184,7 +168,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_FIREBASE}
+                                src={L_FIGMA}
                                 alt="Firebase"
                                 rounded
                                 className="image-style m-1"
@@ -195,7 +179,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REDUX}
+                                src={L_FIGMA}
                                 alt="Redux"
                                 rounded
                                 className="image-style m-1"
@@ -206,7 +190,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_JAVASCRIPT}
+                                src={L_FIGMA}
                                 alt="Javascript"
                                 rounded
                                 className="image-style1 m-1"
@@ -271,7 +255,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_ARDUINO}
+                                src={L_FIGMA}
                                 alt="Arduino"
                                 rounded
                                 className="image-style m-1"
@@ -282,7 +266,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
+                                src={L_FIGMA}
                                 alt="Django"
                                 rounded
                                 className="image-style m-1"
@@ -293,7 +277,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_PYTHON}
+                                src={L_FIGMA}
                                 alt="Bootstrap 4"
                                 rounded
                                 className="image-style m-1"
@@ -304,7 +288,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_PYTHONANYWHERE}
+                                src={L_FIGMA}
                                 alt="Django"
                                 rounded
                                 className="image-style m-1"
@@ -315,7 +299,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_ANDROID}
+                                src={L_FIGMA}
                                 alt="Android"
                                 rounded
                                 className="image-style1 m-1"
@@ -383,7 +367,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
+                                src={L_FIGMA}
                                 alt="HTML 5"
                                 rounded
                                 className="image-style m-1"
@@ -394,7 +378,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={L_FIGMA}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
@@ -405,7 +389,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_JAVASCRIPT}
+                                src={L_FIGMA}
                                 alt="Javascript"
                                 rounded
                                 className="image-style m-1"
@@ -416,7 +400,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
+                                src={L_FIGMA}
                                 alt="Bootstrap 4"
                                 rounded
                                 className="image-style m-1"
@@ -427,7 +411,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_LARAVEL}
+                                src={L_FIGMA}
                                 alt="Laravel"
                                 rounded
                                 className="image-style m-1"
@@ -438,7 +422,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_PHP}
+                                src={L_FIGMA}
                                 alt="PHP"
                                 rounded
                                 className="image-style m-1"
@@ -449,7 +433,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MONGODB}
+                                src={L_FIGMA}
                                 alt="MONGODB"
                                 rounded
                                 className="image-style1 m-1"
@@ -460,7 +444,7 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_AWS}
+                                src={L_FIGMA}
                                 alt="AWS"
                                 rounded
                                 className="image-style m-1"
