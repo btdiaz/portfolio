@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 className="pt-3 text-center font-details pb-3">ACERCA DE MI</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -29,7 +29,7 @@ const About = () => {
                 Creo firmemente que un gran diseño surge de la colaboración, la curiosidad y una genuina atención a los detalles.
                 <br />
                 En 2021, culminé mis estudios en Turismo y Hoteleria, una etapa que fortaleció mi vación por generar 
-                experiencias memorables para las personas. Con el timepo esa pasión evolucionó hacia un profundo interés
+                experiencias memorables para las personas. Con el tiempo esa pasión evolucionó hacia un profundo interés
                 por el diseño digital y la experiencia de usuario.
                 <br />
                 En 2023, finalicé mi formación en diseño UX/UI y durante 2024 amplié mis habilidades a través de cursos en línea
@@ -45,19 +45,19 @@ const About = () => {
                   <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                        Contáctame
                       </Button>
                     </a>
                   </div>
                   <div>
                     <a href="https://drive.google.com/file/d/1yDkApRRImSL5KY1RQ1z_9kOG_2J-HFRm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
-                        My Resume (CV)
+                        Curriculum (CV)
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://github.com/gtorres777" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/btdiaz" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
