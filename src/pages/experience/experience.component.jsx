@@ -77,8 +77,8 @@ const Experience = () => {
                       <li>Di vida a ideas creando interfaces limpias, visualmente atractivas y funcionales.</li>
                       <li>Diseñé pantallas para web y mobile apps con atención al detalle.</li>
                       <li>Convertí conceptos en prototipos interactivos usando Figma.</li>
-                      <li>Colaboré codo a codo con equipos de UX, producto desarrollo.</li>
-                      <li>Jugué con colores, tipografías y jerarquías para lograr experiencias intuitivas y accesibles.</li>
+                      <li>Participé activamente junto al equipo de UX, producto desarrollo.</li>
+                      <li>Combiné colores, tipografías y jerarquías para lograr experiencias intuitivas y accesibles.</li>
                       {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
 
                     </ul>

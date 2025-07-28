@@ -49,15 +49,19 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Mobile Application that shows the hot spots
-                        of people infected by COVID-19 on a map.
+                        <strong>Description:</strong> Diseñé y mejoré una tienda de ropa online femenina
+                        enfocándome en la experiencia visual, intuita y este alineada con las necesidades
+                        del usuario.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Users authentication through Firebase integration</li>
-                          <li>Map to view the hot spots of the ones infected by COVID-19</li>
-                          <li>Add reports for new hot spots</li>
-                          <li>List reports for a specific area of the map</li>
+                          <li>Analicé la interfaz original, mediante una matriz de viabilidad
+                            factibilidad y deseabilidad.</li>
+                          <li>Identifiqué los puntos de dolor y propuse soluciones efectivas
+                            para cada uno.</li>
+                          <li>Incorporé paleta de colores, tipografía y estilos alineados al perfil
+                            femenino y modelo de marca.</li>
+                          <li>Realice pruebas de usabilidad y ajusté elementos visuales</li>
                         </ul>
                         <hr />
                         <strong>Technologies used:</strong>
@@ -70,7 +74,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              IOS
+                              FIGMA
                             </span>
                           </li>
                           <li>
@@ -81,7 +85,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Swift
+                              GOOGLE TRENDS
                             </span>
                           </li>
                           <li>
@@ -92,7 +96,7 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Firebase
+                              PEXELS
                             </span>
                           </li>
                         </ul>
