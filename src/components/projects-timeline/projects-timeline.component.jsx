@@ -2,10 +2,12 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_Tiomanga from "../../assets/img/projects/tiomanga.webp";
-import L_Vierbeinig from "../../assets/img/projects/vierbeinig.webp";
-import L_Mapacovid from "../../assets/img/projects/mapacovid.webp";
-import L_Easyhotel from "../../assets/img/projects/easyhotel.webp";
+
+import L_Hydrosmart from "../../assets/img/projects/hydrosmart.png";
+import L_SEMINUEVOS from "../../assets/img/projects/seminuevos_peru.png";
+import L_Nebula from "../../assets/img/projects/nebula_portada.png";
+
+
 
 
 import Accordion from "react-bootstrap/Accordion";
@@ -14,6 +16,11 @@ import Card from "react-bootstrap/Card";
 // skills
 import Image from "react-bootstrap/Image";
 import L_FIGMA from "../../assets/img/skills/figma.png";
+import L_GOOGLE_TRENDS from "../../assets/img/skills/google_trends.png";
+import L_PEXELS from "../../assets/img/skills/pexels.png";
+import L_BEHANCE from "../../assets/img/skills/behance.png";
+import L_PHOTOSHOP from "../../assets/img/skills/adobe_photoshop.png";
+
 
 
 
@@ -27,13 +34,13 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROYECTOS</h1>
       <Timeline>
         <Events>
-        {/* Project: Mapa Covid-19 */}
+        {/* Project: Hydrosmart */}
           <ImageEvent
-            date="20/07/2020"
+            date="27/12/2024"
             className="text-center"
-            text="NÉBULA"
-            src={L_Mapacovid}
-            alt="Mapa Covid-19"
+            text="HYDROSMART"
+            src={L_Hydrosmart}
+            alt="Hydrosmart"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -49,22 +56,18 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Diseñé y mejoré una tienda de ropa online femenina
-                        enfocándome en la experiencia visual, intuita y este alineada con las necesidades
-                        del usuario.
+                        <strong>Descripción:</strong> Diseñé una interfaz intuitiva para el monitoreo de cultivos hidropónicos,
+                         facilitando la visualización de datos como pH, humedad y temperatura. 
+                         Este proyecto combinó funcionalidad y sostenibilidad, alineado con la identidad de la marca.
                         <hr />
-                        <strong>Features:</strong>
+                        <strong>Actividades:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Analicé la interfaz original, mediante una matriz de viabilidad
-                            factibilidad y deseabilidad.</li>
-                          <li>Identifiqué los puntos de dolor y propuse soluciones efectivas
-                            para cada uno.</li>
-                          <li>Incorporé paleta de colores, tipografía y estilos alineados al perfil
-                            femenino y modelo de marca.</li>
-                          <li>Realice pruebas de usabilidad y ajusté elementos visuales</li>
+                          <li>Diseñé interfaces orientadas a la visualización y control de sistemas hidropónicos inteligentes.</li>
+                          <li>Buscando mejorar la experiencia del usuario, propuse soluciones intuitivas para el monitoreo de variables como humedad, pH y temperatura.</li>
+                          <li>Aporté en la construcción de una identidad visual coherente con la sostenibilidad y la innovación tecnológica del proyecto.</li>
                         </ul>
                         <hr />
-                        <strong>Technologies used:</strong>
+                        <strong>Technologías usadas:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
@@ -80,23 +83,23 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_FIGMA}
-                                alt="Swift"
+                                src={L_PEXELS}
+                                alt="Pexels"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              GOOGLE TRENDS
+                              Pexels
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_FIGMA}
-                                alt="Firebase"
+                                src={L_PHOTOSHOP}
+                                alt="Photoshop"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PEXELS
+                              Photoshop
                             </span>
                           </li>
                         </ul>
@@ -114,20 +117,20 @@ const TimeLine = () => {
                   href="https://gitlab.com/tecsup1/programacion-en-moviles-avanzado/pma-proyectofinal"
                   target="_blank"
                 >
-                  Repository
+                  Ver Proyecto
                 </UrlButton>
                 
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: EasyHotel */}
+          {/* Project: SEMINUEVOS INTERPERU */}
 
           <ImageEvent
-            date="27/06/2020"
+            date="22/12/2023"
             className="text-center"
-            text="EasyHotel"
-            src={L_Easyhotel}
+            text="SEMINUEVOS INTERPERU"
+            src={L_SEMINUEVOS}
             alt="EasyHotel"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -139,21 +142,21 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Details
+                      Detalles
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong>Mobile Application that allows users to book hotel rooms
-                         and room service depending of the hotel.
+                        <strong>Descripción:</strong> Realicé la mejora de la plataforma digital, 
+                        de la empresa. junto con mi equipo, llevamos a cabo sesiones de diseño centradas 
+                        en las necesidades de los usuarios, se trabajó desde la investigación previa hasta la propuesta visual.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Authentication through the integration with Firebase</li>
-                          <li>List hotels with their details for each one</li>
-                          <li>Book a hotel room</li>
-                          <li>Order food or drinks to the room depending on the hotel</li>
-                          <li>Use of Redux</li>
+                          <li>Realicé un análisis de mercado para identificar el público objetivo y su comportamiento</li>
+                          <li>Diseñé y propuse mejoras para la plataforma digital de compra y venta de autos seminuevos</li>
+                          <li>Colaboré con el equipo en la creación de wireframes, prototipos y diseño visual</li>
+                          <li>Participé en reuniones con stkaeholders para alinear objetivos de negocio y necesidades del usuario</li>
                         </ul>
                         <hr />
                         <strong>Technologies used:</strong>
@@ -162,44 +165,33 @@ const TimeLine = () => {
                             <span className="p-2">
                               <Image
                                 src={L_FIGMA}
-                                alt="ReactNative"
+                                alt="Figma"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              React Native
+                              Figma
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_FIGMA}
-                                alt="Firebase"
+                                src={L_PHOTOSHOP}
+                                alt="Photoshop"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Firebase
+                              Photoshop
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_FIGMA}
-                                alt="Redux"
+                                src={L_BEHANCE}
+                                alt="Behance"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Redux
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_FIGMA}
-                                alt="Javascript"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Javascript
+                              Behance
                             </span>
                           </li>
                         </ul>
@@ -213,19 +205,19 @@ const TimeLine = () => {
                   href="https://gitlab.com/tecsup1/aplicaciones-moviles-multiplataforma/dam-exam4"
                   target="_blank"
                 >
-                  Repository
+                  Ver Proyecto
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: Vierbeinig */}
+          {/* Project: Nebula */}
 
           <ImageEvent
-            date="12/12/2019"
+            date="28/08/2023"
             className="text-center"
-            text="Vierbeinig"
-            src={L_Vierbeinig}
+            text="NÉBULA"
+            src={L_Nebula}
             alt="Vierbeinig"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -237,78 +229,59 @@ const TimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      Details
+                      Detalles
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> Mobile Application designed to be able to
-                        control a spider robot that measures the temperature and humidity.
+                        <strong>Descripción:</strong> Diseñé y mejoré una tienda de ropa online femenina
+                        enfocándome en la experiencia visual, intuitiva y este alineada con las necesidades
+                        del usuario.
                         <hr />
-                        <strong>Features:</strong>
+                        <strong>Actividades:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Control the spider robot that is built with 3D printed parts</li>
-                          <li>Get real time temperature and humidity measurement data</li>
-                          <li>Authentication using Oauth integrated with Django</li>
-                          <li>Generation of temperature and humidity reports establishing a period of time</li>
-                          <li>Hosted using PythonAnyWhere </li>
+                          <li>Analicé la interfaz original, mediante una matriz de viabilidad
+                            factibilidad y deseabilidad.</li>
+                          <li>Identifiqué los puntos de dolor y propuse soluciones efectivas
+                            para cada uno.</li>
+                          <li>Incorporé paleta de colores, tipografía y estilos alineados al perfil
+                            femenino y modelo de marca.</li>
+                          <li>Realice pruebas de usabilidad y ajusté elementos visuales</li>
                         </ul>
                         <hr />
-                        <strong>Technologies used:</strong>
+                        <strong>Tecnologías usadas:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_FIGMA}
-                                alt="Arduino"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Arduino
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_FIGMA}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_FIGMA}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Python
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_FIGMA}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              PythonAnyWhere
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_FIGMA}
-                                alt="Android"
+                                alt="FIGMA"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Android
+                              FIGMA
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GOOGLE_TRENDS}
+                                alt="Google Trends"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GOOGLE TRENDS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PEXELS}
+                                alt="Pexels"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PEXELS
                             </span>
                           </li>
                         </ul>
@@ -319,10 +292,10 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/gtorres777/ADAs-Django"
+                  href="https://www.figma.com/design/00JZIe66mgloj8NusCylgq/Nebula-Web-Mobile?node-id=5-19&t=DYfb9LROPQwAmLyX-1"
                   target="_blank"
                 >
-                  Repository
+                Ver Proyecto
                 </UrlButton>
               </div>
             </div>
