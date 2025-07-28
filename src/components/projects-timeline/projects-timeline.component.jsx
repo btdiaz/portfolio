@@ -37,8 +37,8 @@ const TimeLine = () => {
         {/* Project: Hydrosmart */}
           <ImageEvent
             date="27/12/2024"
-            className="text-center font-details-b"
-            text="HYDROSMART"
+            className="text-center"
+            text="**HYDROSMART**"
             src={L_Hydrosmart}
             alt="Hydrosmart"
           >
@@ -128,8 +128,8 @@ const TimeLine = () => {
 
           <ImageEvent
             date="22/12/2023"
-            className="text-center font-details-b"
-            text="SEMINUEVOS INTERPERU"
+            className="text-center"
+            text="**SEMINUEVOS INTERPERU**"
             src={L_SEMINUEVOS}
             alt="EasyHotel"
           >
@@ -215,8 +215,8 @@ const TimeLine = () => {
 
           <ImageEvent
             date="28/08/2023"
-            className="text-center font-details-b"
-            text="NÉBULA"
+            className="text-center"
+            text="**NÉBULA**"
             src={L_Nebula}
             alt="Vierbeinig"
           >

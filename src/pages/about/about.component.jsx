@@ -64,7 +64,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/gustavo-torres-díaz-4948361a1" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/lucero-t-208330377/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
