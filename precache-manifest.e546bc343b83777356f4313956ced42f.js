@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24bebe1ca1e160afb136834541154a2d",
+    "revision": "b915f7bc43bf5d547e19b36b91e74db4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9fc4817aaaa51b8bf033",
+    "revision": "aecb3fea42c6b94ddd12",
     "url": "/portfolio/static/css/main.5bd54bb6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.bec28b11.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fc4817aaaa51b8bf033",
-    "url": "/portfolio/static/js/main.55659be0.chunk.js"
+    "revision": "aecb3fea42c6b94ddd12",
+    "url": "/portfolio/static/js/main.4c717cbf.chunk.js"
   },
   {
     "revision": "83dc2e69eb0b3e275588",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/nebula_portada.77576b10.png"
   },
   {
-    "revision": "b69a39ad117ec9f87330cf16b11df4f3",
-    "url": "/portfolio/static/media/perfil.b69a39ad.jpg"
+    "revision": "f9b92ee94ca1c0b6383929ca74603578",
+    "url": "/portfolio/static/media/perfil.f9b92ee9.jpg"
   },
   {
     "revision": "13d4701533b811a75598eefeca269be3",
