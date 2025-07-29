@@ -50,7 +50,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1yDkApRRImSL5KY1RQ1z_9kOG_2J-HFRm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1FaGAHUfsEa-OIBXz4Slgvdq8KvUYXBqR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         Curriculum (CV)
                       </Button>
@@ -64,7 +64,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/lucero-t-208330377/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/lucerotdiaz/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
