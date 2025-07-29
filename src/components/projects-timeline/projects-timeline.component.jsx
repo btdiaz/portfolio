@@ -114,7 +114,7 @@ const TimeLine = () => {
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 
                 <UrlButton
-                  href="https://gitlab.com/tecsup1/programacion-en-moviles-avanzado/pma-proyectofinal"
+                  href="https://www.figma.com/design/PQ5kiose9Fb0gqdGE03mNc/HydroSmart?node-id=0-1&t=epsReiAMk17ZO40n-1"
                   target="_blank"
                 >
                   Ver Proyecto
@@ -202,7 +202,7 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://gitlab.com/tecsup1/aplicaciones-moviles-multiplataforma/dam-exam4"
+                  href="https://www.figma.com/design/JOsCd85VNUoJBSK05dFeWB/SemiNuevos-INTERPERU?t=epsReiAMk17ZO40n-1"
                   target="_blank"
                 >
                   Ver Proyecto
